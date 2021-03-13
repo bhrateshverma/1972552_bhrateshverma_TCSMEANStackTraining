@@ -1,0 +1,48 @@
+.divFontClass{
+    font: size 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: initial;
+    color: olivedrab;
+}
+
+body{
+    background-image: url("bharat-biotech-covaxin-packshot.jpg");
+    background-position: inherit;
+    background-size: 600px;
+
+}
+
+#d1{
+    transition: width 10s,height 10s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+#d1:hover{
+    width: 200px;
+    height: 250px;
+}
+
+.myanimation{
+    padding: 50px;
+    border: solid brown 4px;
+    margin: 20px;
+    width: 160px;
+    height: 160px;
+    float: left;
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 0%;
+    position: absolute;
+    animation-name: myvisual;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes myvisual{
+    0% {background-color: cadetblue;margin: 10px;}
+    25% {background-color: seagreen;margin: 40px;}
+    50% {background-color: rgb(54, 95, 134);}
+    75% {background-color: olivedrab;}
+    100% {background-color: navajowhite;}
+}
