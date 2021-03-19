@@ -1,0 +1,37 @@
+#textHead{
+    text-align: center;
+    color: darkslategray;
+}
+
+#blogTitle{   
+    margin-top: 1%;
+    color: darkslategrey;
+}
+
+#textHeader{
+    text-align: center;
+    color: midnightblue;
+}
+
+.articleContent{
+    text-align: center;
+    border: 2px solid darkslategray;
+    color: darkslategrey;
+    background-size: 100% auto;
+    background-position: 0% 50%;
+    margin: 0 0 2%;
+}
+
+.articleContent:first-of-type p{
+    font-size: 1em;
+    margin-top: 2%;
+}
+
+.articleContent:first-of-type h1{
+    margin-top: 2%;
+}
+
+.rowMargin{
+    margin: 0 0 2%;
+}
+
