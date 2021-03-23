@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="mainPage.css">
+    
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark justify-content-center" >
+        <div class="container-fluid">
+        <a class="navbar-brand" href="mainPage.html">SneakerShop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"> 
+                <a class="nav-link active" href="myCart.html">Checkout</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <h3 id="cartHead">
+        Cart Size: <small class="text-muted" id="cartQuant">0</small>
+    </h3>
+    <br>
+
+    <div class="row">
+        <div class="col-md-4">
+            <img src="adidas_superstar.jpg" class="img-thumbnail">
+        </div>
+        <div class="col-md-8">
+            <h2 class="card-title mt-3" id="productTitle"><b>Adidas Superstars</b></h2>
+            <p class="price">Price : $59</p>
+            <p id="superstarBought">Items Added =0</p>
+            <button id="superstarBuy">Buy Here</button>
+            <button id="superstarRemove">Remove Here</button>
+            <button id="superstarRemoveAll">Remove All Here</button>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="air-force-1.jpg" class="img-thumbnail">
+        </div>
+        <div class="col-md-8">
+            <h2 class="card-title mt-3" id="productTitle">Nike Air Force 1</h2>
+            <p class="price">Price = $79</p>
+            <p id="airforceBought">Items Added = 0</p>
+            <button id="airforceBuy">Buy Here</button>
+            <button id="airforceRemove">Remove Here</button>
+            <button id="airforceRemoveAll">Remove All Here</button>
+        </div>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="col-md-4">
+            <img src="airmax.jpg" class="img-thumbnail">
+        </div>
+        <div class="col-md-8">
+            <h2 class="card-title mt-3" id="productTitle">Nike Air Max</h2>
+            
+            <p class="price">Price = $89</p>
+            <p id="airmaxBought">Items Added = 0</p>
+            <button id="airmaxBuy">Buy Here</button>
+            <button id="airmaxRemove">Remove Here</button>
+            <button id="airmaxRemoveAll">Remove All Here</button>
+        </div>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="col-md-4">
+            <img src="vans_classic.jpg" class="img-thumbnail">
+        </div>
+        <div class="col-md-8">
+            <h2 class="card-title mt-3" id="productTitle">Vans Classic Checkered</h2>
+            
+            <p class="price">Price = $69</p>
+            <p id="vansBought">Items Added = 0</p>
+            <button id="vansBuy">Buy Here</button>
+            <button id="vansRemove">Remove Here</button>
+            <button id="vansRemoveAll">Remove All Here</button>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="vans_slippers.jpg" class="img-thumbnail">
+        </div>
+        <div class="col-md-8">
+            <h2 class="card-title mt-3" id="productTitle">Vans Slippers</h2>
+        
+            <p class="price">Price = $39</p>
+            <p id="sandalsBought">Items Added = 0</p>
+            <button id="sandalsBuy">Buy Here</button>
+            <button id="sandalsRemove">Remove Here</button>
+            <button id="sandalsRemoveAll">Remove All Here</button>
+        </div>
+    </div>
+    <script src="mainPage.js"></script>
+    
+</body>
+</html>
