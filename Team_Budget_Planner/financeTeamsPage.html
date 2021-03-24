@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finance Teams</title>
     <link rel="stylesheet" href="budgetPlannerStyle.css">
-    <script src="financeTeams.js"></script>
 </head>
-<body>
+<body onload="retrieveInfo()">
     <p id="heading">Finance Teams</p>
     <div id="table">
     <h2>Annual Budget</h2>
@@ -25,9 +24,11 @@
     </tbody>    
     </table>
 
-    <p id="tot"></p>
+    <label>Total Budget= </label><span id="budget"></span><br/>
 
     <h2><a href="indexPage.html">Back</a></h2><br/>
     </div>
+    <script src="financeTeams.js"></script>
+
 </body>
 </html>

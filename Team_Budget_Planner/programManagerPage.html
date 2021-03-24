@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Program Managers</title>
-    <script src="programManagers.js"></script>
     <link rel="stylesheet" href="budgetPlannerStyle.css">
 </head>
 <body>
@@ -14,20 +13,23 @@
     <form>
         <h2>Add New Budget</h2>
         
-        <label for ="clientName"><span> Client Name:</span> </label>
+        <label><span> Client Name:</span> </label><br/>
         <input type="text" id="clientName"/><br/><br/>
          
-        <label for="projectName"><span>Project Name:</span></label>
+        <label><span>Project Name:</span></label><br/>
         <input type="text" id="projectName"/><br/><br/>
             
-        <label for="budget"><span>Budget:</span></label>
+        <label><span>Budget:</span></label><br/>
         <input type="number" id="budget"/><br/><br/>
                 
         <input type="button" value="Add" onclick="formSubmit()"/>
     
         <input type="button" value="Clear" onclick="clearmyForm()"/>
+        <h3><a href="indexPage.html" onclick="saveInfo()">Back</a></h3>
+
     </form>    
-        <h2><a href="indexPage.html">Back</a></h2>
     </div>    
+    <script src="programManagers.js"></script>
+
 </body>
 </html>
