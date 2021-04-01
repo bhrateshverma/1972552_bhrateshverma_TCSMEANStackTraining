@@ -1,0 +1,28 @@
+{
+  "todo": [
+    {
+      "id": "101",
+      "name": "bhratesh",
+      "task": "Complete Assignment",
+      "deadline": "2021-04-02"
+    },
+    {
+      "id": "102",
+      "name": "Jack",
+      "task": "Refill Gas",
+      "deadline": "2021-04-04"
+    },
+    {
+      "id": "103",
+      "name": "Mike",
+      "task": "Visit Doctor",
+      "deadline": "2021-04-07"
+    },
+    {
+      "id": "104",
+      "name": "Macy",
+      "task": "Project",
+      "deadline": "2021-04-10"
+    }
+  ]
+}
